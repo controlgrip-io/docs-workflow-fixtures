@@ -1,0 +1,4 @@
+[project]
+name = "controlgrip-reader-negative-fixture"
+version = "0.0.1"
+dependencies = ["requests==2.32.4"]
