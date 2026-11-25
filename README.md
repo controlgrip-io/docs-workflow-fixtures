@@ -9,3 +9,5 @@ Contains no credentials, customer data, or ControlGrip implementation code. Buil
 - TypeScript: workdir `typescript`, main `main.ts`, entrypoint `read`.
 
 To advance the branch, change REVISION in reader_shared.py from 1 to 2 and commit. Tracking runs should record the new commit; historical and pin-policy runs must keep the old commit. Revert that change as a new commit for rollback tests.
+
+Native Git tasks: workdir `bin`, main `golang` or `rust`, Linux amd64 static executables; sources are in native-src. Step one supports config.require_custom_path=true to require the documented custom PYTHONPATH entry.
